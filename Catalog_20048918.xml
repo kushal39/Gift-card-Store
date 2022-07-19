@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="Catalog_20048918.css"?>
+<!--  Name: Kushal poudel
+      LondonmetID: 20048918
+      CollegeID: NP01CP4S200002 \
+      facultiy: Computing
+      Section: C3 -->
+
+
+<Gift  xsi:noNamespaceSchemaLocation="Catalog_20048918.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> 
+    <navigation>
+    <logo> </logo>
+    <visa> visa </visa>
+    <e-gift> e-gift </e-gift>
+    <brand> brand </brand>
+    <more> more... </more>
+    <search> </search>
+    <signin> </signin>
+    </navigation>
+    <body>
+        <product> Product </product>
+        <gift> Gift cards </gift>
+        <line> -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </line>
+        <giftpng img="gift.png"/>
+        <giftlogo img="giftlogo"/>
+        <giftinfo>Trust us, everyone on your list wants one of these gift cards. Stop stressing over finding them the perfect pair of shoes or trying to figure out which game they want. Theres a christmas gift card
+        for everyone</giftinfo>
+        <explore img="explore"/>
+        <feature> Featured </feature>
+        <ogc> online gift cards </ogc>
+        <ogcinfo>online gift cards, also known as egift cards, 
+            digital gift cards, mobile gift cards and virtual gift cards,  
+            all refer to gift codes (see, they’re not even cards) 
+            that are delivered using technology such as email
+            , SMS text, social media and smartphone apps.
+            Although this new way of gifting is the talk of the
+            holiday season,relatively few consumers have sent 
+            or used digital gift cards to date. But that is
+            about to change. 
+        </ogcinfo>
+            <pgc> physical gift cards </pgc>
+            <pgcinfo> physical gift cards allow you to get gifts and
+                discount in physical. You need to visit the store 
+                with your card with validation not expired, And
+                in return of your gift card with its specific
+                features you will provided required discount on items.
+            </pgcinfo>
+            <card1 img="card1"/>
+            <card2 img="card2"/>
+            <card3 img="card3"/>
+            <more img="more"/>
+    
+    </body>
+
+    <storeinfo>
+    <Name> Kushal Store </Name>
+    <Address>  London,Blackpool </Address>
+    <Telephone> +977983627233 </Telephone>
+    <Website> www.kushalstore.com </Website>
+    <store type="main"> </store>
+    <logo/>
+    </storeinfo>
+     <giftcards> 
+        <giftcard>
+        
+        <card img="card4"/>
+        <card_number> 123456789 </card_number>
+        <cardholder> Ritika Lama </cardholder>
+        <contact type="email"/> 
+        <email> ritikalama69@gmail.com </email>
+        <card_pin> 1234 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $100 </cost>
+        <validity> 1 year </validity>
+        <discountvoucher type="10%"/> 
+        <discount> 10% </discount>
+        <payment_method type="cash"/> 
+        <payment> cash </payment>
+        </giftcard>
+    
+        <giftcard>
+        <card img="card5"/>
+        <card_number> 984543532 </card_number>
+        <cardholder> Ashutosh sharma </cardholder>
+        <contact type="mobile"/> 
+        <mobile> +977984543532 </mobile>
+        <card_pin> 5634 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $200 </cost>
+        <validity> 2 years </validity>
+        <discountvoucher type="20%"/> 
+        <discount> 20% </discount>
+        <payment_method type="phonepay"/>
+        <payment> phonepay </payment>
+        </giftcard>
+
+        <giftcard>
+            <card img="card6"/>
+            <card_number> 436354632 </card_number>
+            <cardholder> Anish aryal </cardholder>
+            <contact type="Telephone"/>
+            <telephone> +977984363546 </telephone>
+            <card_pin> 9358 </card_pin>
+            <card type="online"/>
+            <cardtype> online </cardtype>
+            <cost> $150 </cost>
+            <validity> 1.5 years </validity>
+            <discountvoucher type="15%"/>
+            <discount> 15% </discount>
+            <payment_method type="paypal"/>
+            <payment> paypal </payment>
+        </giftcard>
+
+         <giftcard>
+         <card img="card7"/>
+        <card_number> 465634644 </card_number>
+        <cardholder> Rijesh lopchan </cardholder>
+        <contact type="email"/>
+        <email> rijeshlopchan23@gmail.com </email>
+        <card_pin> 6754 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $100 </cost> 
+        <validity> 1 year </validity>
+        <discountvoucher type="10%"/>
+        <discount> 10% </discount>
+        <payment_method type="cash"/>
+        <payment> cash </payment>
+         </giftcard>
+
+        <giftcard>
+        <card img="card8"/>
+        <card_number> 867876876 </card_number>
+        <cardholder> Sarjan lamichhane </cardholder>
+        <contact type="mobile"/>
+        <mobile> +977986876787 </mobile>
+        <card_pin> 8767 </card_pin>
+        <card type="online"/>
+        <cardtype> online </cardtype>
+        <cost> $180 </cost>
+        <validity> 2.5 year </validity>
+        <discountvoucher type="20%"/>
+        <discount> 20% </discount>
+        <payment_method type="paypal"/>
+        <payment> phonepay </payment>
+        </giftcard>
+
+        <giftcard>
+        <card img="card9"/>
+        <card_number> 987654321 </card_number>
+        <cardholder> Sachin chhetri </cardholder>
+        <contact type="email"/>
+        <email> sachinchhetri12@gmail.com </email>
+        <card_pin> 8485 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $100 </cost>
+        <validity> 1 year </validity>
+        <discountvoucher type="10%"/>
+        <discount> 10% </discount>
+        <payment_method type="cash"/>
+        <payment> cash </payment>
+        </giftcard>
+
+        <giftcard>
+        <card img="card10"/>
+        <card_number> 937354321 </card_number>
+        <cardholder> Darpan shrestha </cardholder>
+        <contact type="mobile"/>
+        <mobile> +977987654321 </mobile>
+        <card_pin> 3985 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $150 </cost>
+        <validity> 1.5 year </validity>
+        <discountvoucher type="15%"/>
+        <discount> 15% </discount>
+        <payment_method type="cash"/>
+        <payment> cash </payment>
+        </giftcard>
+
+        <giftcard>
+        <card img="card11"/>
+        <card_number> 987844321 </card_number>  
+        <cardholder> Ashish paudel </cardholder>
+        <contact type="email"/>
+        <email>aashishpaudel45@gmail.com </email>
+        <card_pin> 8485 </card_pin>
+        <card type="online"/>
+        <cardtype> online </cardtype>
+        <cost> $180 </cost>
+        <validity> 2.5 year </validity>
+        <discountvoucher type="20%"/>
+        <discount> 20% </discount>
+        <payment_method type="paypal"/>
+        <payment> paypal </payment>
+        </giftcard>
+
+        <giftcard>
+        <card img="card12"/>
+        <card_number> 748384321 </card_number>
+        <cardholder> Sirjan shrestha</cardholder>
+        <contact type="email"/>
+        <email> srijanshrestha23@gmail.com </email>
+        <card_pin> 9265 </card_pin>
+        <card type="physical"/>
+        <cardtype> physical </cardtype>
+        <cost> $100 </cost>
+        <validity> 1 year </validity>
+        <discountvoucher type="10%"/>
+        <discount> 10% </discount>
+        <payment_method type="cash"/>
+        <payment> cash </payment>
+        </giftcard>
+
+        <giftcard>
+        <card img="card13"/>
+        <card_number> 804654321 </card_number>
+        <cardholder> Jason adhikari </cardholder>
+        <contact type="mobile"/>
+        <mobile> +977987654321 </mobile>
+        <card_pin> 0925 </card_pin>
+        <card type="online"/>
+        <cardtype> online </cardtype>
+        <cost> $180 </cost>
+        <validity> 2.5 year </validity>
+        <discountvoucher type="20%"/>
+        <discount> 20% </discount>
+        <payment_method type="paypal"/>
+        <payment> paypal </payment>
+        </giftcard>
+    </giftcards>
+    <stline/>
+    <giftlogo1 img="giftlogo1"/>
+    <sname> StoreName: </sname>
+    <address1> Address: </address1>
+    <followus> Follow Us On: </followus>
+    <copyright> Copyright © 2022 All Right Reserved | Privacy Policy </copyright>
+    <fblogo img="fblogo"/>
+    <twitterlogo img="twitterlogo"/>
+    <instalogo img="instalogo"/>
+    <calllogo img="calllogo"/>
+    <callinfo> Call Us: </callinfo>
+    <website1> Website: </website1>
+    <stline1/>
+    
+
+        
+</Gift>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Gift" type="GiftType">
+    <xs:annotation>
+      <xs:documentation>Name: Kushal poudel
+      LondonmetID: 20048918
+      CollegeID: NP01CP4S200002 \
+      facultiy: Computing
+      Section: C3</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="card2Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="bodyType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="product"/>
+      <xs:element type="xs:string" name="gift"/>
+      <xs:element type="xs:string" name="line"/>
+      <xs:element type="giftpngType" name="giftpng"/>
+      <xs:element type="giftlogoType" name="giftlogo"/>
+      <xs:element type="xs:string" name="giftinfo"/>
+      <xs:element type="exploreType" name="explore"/>
+      <xs:element type="xs:string" name="feature"/>
+      <xs:element type="xs:string" name="ogc"/>
+      <xs:element type="xs:string" name="ogcinfo"/>
+      <xs:element type="xs:string" name="pgc"/>
+      <xs:element type="xs:string" name="pgcinfo"/>
+      <xs:element type="card1Type" name="card1"/>
+      <xs:element type="card2Type" name="card2"/>
+      <xs:element type="card3Type" name="card3"/>
+      <xs:element type="moreType" name="more"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="giftpngType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="storeType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="giftcardsType">
+    <xs:sequence>
+      <xs:element type="giftcardType" name="giftcard" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="exploreType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="cardType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img" use="optional"/>
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="contactType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="calllogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="fblogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="GiftType">
+    <xs:sequence>
+      <xs:element type="navigationType" name="navigation"/>
+      <xs:element type="bodyType" name="body"/>
+      <xs:element type="storeinfoType" name="storeinfo"/>
+      <xs:element type="giftcardsType" name="giftcards"/>
+      <xs:element type="xs:string" name="stline"/>
+      <xs:element type="giftlogo1Type" name="giftlogo1"/>
+      <xs:element type="xs:string" name="sname"/>
+      <xs:element type="xs:string" name="address1"/>
+      <xs:element type="xs:string" name="followus"/>
+      <xs:element type="xs:string" name="copyright"/>
+      <xs:element type="fblogoType" name="fblogo"/>
+      <xs:element type="twitterlogoType" name="twitterlogo"/>
+      <xs:element type="instalogoType" name="instalogo"/>
+      <xs:element type="calllogoType" name="calllogo"/>
+      <xs:element type="xs:string" name="callinfo"/>
+      <xs:element type="xs:string" name="website1"/>
+      <xs:element type="xs:string" name="stline1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="giftlogo1Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="giftlogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="discountvoucherType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="giftcardType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="cardType" name="card"/>
+      <xs:element type="xs:float" name="card_number"/>
+      <xs:element type="xs:string" name="cardholder"/>
+      <xs:element type="contactType" name="contact"/>
+      <xs:element type="xs:string" name="email"/>
+      <xs:element name="card_pin">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute type="xs:string" name="img" use="optional"/>
+              <xs:attribute type="xs:string" name="type" use="optional"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element type="xs:string" name="cardtype"/>
+      <xs:element type="xs:string" name="cost"/>
+      <xs:element type="xs:string" name="validity"/>
+      <xs:element type="discountvoucherType" name="discountvoucher"/>
+      <xs:element type="xs:string" name="discount"/>
+      <xs:element type="payment_methodType" name="payment_method"/>
+      <xs:element type="xs:string" name="payment"/>
+      <xs:element type="xs:float" name="mobile"/>
+      <xs:element type="xs:float" name="telephone"/>
+    </xs:choice>
+  </xs:complexType>
+  <xs:complexType name="card1Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="payment_methodType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="type" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="card3Type">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="twitterlogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="storeinfoType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element type="xs:string" name="Address"/>
+      <xs:element type="xs:float" name="Telephone"/>
+      <xs:element type="xs:string" name="Website"/>
+      <xs:element type="storeType" name="store"/>
+      <xs:element type="xs:string" name="logo"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="navigationType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="logo"/>
+      <xs:element type="xs:string" name="visa"/>
+      <xs:element type="xs:string" name="e-gift"/>
+      <xs:element type="xs:string" name="brand"/>
+      <xs:element type="xs:string" name="more"/>
+      <xs:element type="xs:string" name="search"/>
+      <xs:element type="xs:string" name="signin"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="moreType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="instalogoType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="img"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

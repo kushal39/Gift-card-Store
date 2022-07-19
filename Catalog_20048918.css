@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+navigation {
+    background-color: #CBCACA;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+logo{
+    background-image: url("giftlogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    
+}
+search{
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+signin{
+    background-image: url("signin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+product{
+    /* Product */
+
+
+    display: flex;
+    justify-content: space-between;
+    width: 496px;
+    height: 160px;
+    margin-left: 130px;
+    margin-top: 158px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    
+}
+gift{
+    /* Gift cards */
+
+
+    display: flex;
+    justify-content: space-between;
+    width: 602px;
+    height: 160px;
+    margin-left: 70px;
+    margin-top: 30px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+giftlogo{
+    background-image: url("gift.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 383px;
+    height: 363px;
+    left: 938px;
+    top: 187px;
+}
+line{
+    display: flex;
+    justify-content: space-between;
+    width: 1410px;
+    height: 28px;
+    margin-left: 7px;
+    margin-top: 1700px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10.5px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+giftinfo{
+    position: absolute;
+    width: 539px;
+    height: 200px;
+    left: 76px;
+    top: 598px;
+    
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    mix-blend-mode: normal;
+
+}
+explore{
+    background-image: url("explore.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 284px;
+    height: 63px;
+    left: 191px;
+    top: 823px;
+
+}
+feature{
+    position: absolute;
+    width: 209px;
+    height: 60px;
+    left: 71px;
+    top: 972px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
+card1{
+    background-image: url("card1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    width: 502px;
+    height: 300px;
+    left: 45px;
+    top: 1084px;
+}
+card2{
+    background-image: url("card2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 45px;
+    top: 1453px;
+
+}
+card3{
+    background-image: url("card3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 502px;
+    height: 300px;
+    left: 45px;
+    top: 1849px;
+
+
+}
+more{
+    background-image: url("more.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 431px;
+    height: 134px;
+    left: 774px;
+    top: 1963px;
+
+}
+ogc{
+    position: absolute;
+    width: 288px;
+    height: 45px;
+    left: 828px;
+    top: 988px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+ogcinfo{
+    position: absolute;
+    width: 673px;
+    height: 270px;
+    left: 639px;
+    top: 1100px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+pgc{
+    position: absolute;
+    width: 332px;
+    height: 45px;
+    left: 806px;
+    top: 1479px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+pgcinfo{
+    position: absolute;
+    width: 581px;
+    height: 150px;
+    left: 633px;
+    top: 1609px;
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+gift {margin: 100px}
+
+giftcards { display:grid; grid-template-columns: auto auto; width: 100px; color:rgb(67, 53, 53); padding: 10px; font-size: 10pt; 
+        margin-bottom: 30px; margin-top: 30px; margin-left: 4em; margin-right: 4em; }
+
+giftcard {display: block; width: 500px; background-color: ivory; font-size: 10pt;
+          border: 1px solid black; padding: 5px; margin-top: 5px; margin-left: 5em; position: relative; }
+
+card{
+    display: block;
+}
+card_number,cardholder,email,mobile,telephone,card_pin,cardtype,cost,validity,discount,payment
+{
+    display:list-item;
+    margin-left: 2em;
+}
+
+
+
+card[img="card4"]{
+
+    background-image: url("card4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 28px;
+    top: 2575px;
+
+}
+card[img="card5"]{
+
+    background-image: url("card5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    left: 800px;
+    top: 2561px;
+
+}
+card[img="card6"]{
+
+    background-image: url("card6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 28px;
+    top: 3317px;
+
+}
+card[img="card7"]{
+
+    background-image: url("card7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    left: 800px;
+    top: 3303px;
+
+
+}
+card[img="card8"]{
+
+    background-image: url("card8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 28px;
+    top: 4221px;
+
+}
+card[img="card9"]{
+
+    background-image: url("card9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 798px;
+    top: 4230px;
+
+}
+card[img="card10"]{
+
+    background-image: url("card10.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 26px;
+    top: 5086px;
+}
+card[img="card11"]{
+
+    background-image: url("card11.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    left: 800px;
+    top: 5089px;
+
+}
+card[img="card12"]{
+
+    background-image: url("card12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    left: 26px;
+    top: 6010px;
+
+}
+card[img="card13"]{
+
+    background-image: url("card13.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 502px;
+    height: 300px;
+    left: 799px;
+    top: 5999px;
+
+}
+stline{
+    position: absolute;
+    width: 1440.03px;
+    height: 0px;
+    left: 0px;
+    top: 4801px;
+    
+    border: 1px solid #000000;
+    transform: rotate(-0.36deg);
+}
+giftlogo1{
+    background-image: url("giftlogo1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 111px;
+    height: 66px;
+    left: 30px;
+    top: 4819px;
+}
+Name{
+    position: absolute;
+    width: 196px;
+    height: 64px;
+    left: 201px;
+    top: 4905px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #000000;
+    }
+
+sname{
+    position: absolute;
+    width: 184px;
+    height: 64px;
+    left: 17px;
+    top: 4905px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+
+}
+
+Address{
+    position: absolute;
+    width: 281px;
+    height: 64px;
+    left: 151px;
+    top: 4989px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #000000;
+
+
+
+}
+address1{
+    position: absolute;
+    width: 134px;
+    height: 64px;
+    left: 17px;
+    top: 4989px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+followus{
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 867px;
+    top: 4835px;
+    
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.0454px;
+    line-height: 70px;
+    
+    color: #000000;
+    
+
+}
+
+fblogo{
+    background-image: url("fblogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 37.52px;
+    height: 37.52px;
+    left: 1100.69px;
+    top: 4852.69px;
+
+}
+
+twitterlogo{
+    background-image: url("twitterlogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 37.52px;
+    height: 37.52px;
+    left: 1180.01px;
+    top: 4852.69px;
+}
+
+instalogo{
+    background-image: url("instalogo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 37.52px;
+    height: 37.52px;
+    left: 1247.01px;
+    top: 4852.69px;
+
+}
+
+calllogo{
+    background-image: url("calllogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 48.24px;
+    height: 37.52px;
+    left: 1317.76px;
+    top: 4852.69px;
+}
+
+Telephone{
+    position: absolute;
+    width: 242px;
+    height: 64px;
+    left: 985px;
+    top: 4905px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+callinfo{
+    position: absolute;
+    width: 112px;
+    height: 64px;
+    left: 862px;
+    top: 4904px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+Website{
+    position: absolute;
+    width: 351px;
+    height: 64px;
+    left: 986px;
+    top: 4967px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+website1{
+    position: absolute;
+    width: 134px;
+    height: 64px;
+    left: 852px;
+    top: 4968px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+
+color: #000000;
+    
+    
+}
+
+copyright{
+    position: absolute;
+    width: 807px;
+    height: 61px;
+    left: 319px;
+    top: 5053px;
+
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 64px;
+
+    color: #9C1111;
+
+
+}
+
+stline1{
+    position: absolute;
+    width: 1440.03px;
+    height: 0px;
+    left: 0px;
+    top: 5143px;
+
+    border: 1px solid #000000;
+    transform: rotate(-0.36deg);
+}
+
+card_number::before{
+    content: "Card Number: ";
+
+}
+
+cardholder::before{
+    content: "Card Holder: ";
+
+}
+
+email::before{
+    content: "Email: ";
+
+}
+
+mobile::before{
+    content: "Mobile: ";
+
+}
+
+telephone::before{
+    content: "Telephone: ";
+
+}
+
+card_pin::before{
+    content: "Card Pin: ";
+
+}
+
+cardtype::before{
+    content: "CardType: ";
+
+}
+
+cost::before{
+    content: "Cost: ";
+
+}
+
+validity::before{
+    content: "Validity: ";
+
+}
+
+discount::before{
+    content: "Discount: ";
+
+}
+
+payment::before{
+    content: "Payment Method: ";
+
+}
+fblogo:hover{
+	transform: scale(2);
+}
+
+instalogo:hover{
+	transform: scale(2);
+}
+
+twitterlogo:hover{
+	transform: scale(2);
+}
+
+calllogo:hover{
+	transform: scale(2);
+}
+
+card1:hover{
+	transform: scale(1.2);
+}
+
+card2:hover{
+	transform: scale(1.2);
+}
+
+card3:hover{
+	transform: scale(1.2);
+}
+
+card4:hover{
+	transform: scale(1.2);
+}
+
+card5:hover{
+	transform: scale(1.2);
+}
+
+card6:hover{
+	transform: scale(1.2);
+}
+
+card7:hover{
+	transform: scale(1.2);
+}
+
+card8:hover{
+	transform: scale(1.2);
+}
+
+card9:hover{
+	transform: scale(1.2);
+}
+
+card10:hover{
+	transform: scale(1.2);
+}
+
+card11:hover{
+	transform: scale(1.2);
+}
+
+card12:hover{
+	transform: scale(1.2);
+}
+
+card13:hover{
+	transform: scale(1.2);
+}
+
+giftlogo:hover{
+	transform: scale(1.2);
+}
+
+visa:hover{
+    color: red;
+    transform: 1.5;
+}
+
+e-gift:hover{
+    color: red;
+    transform: 1.5;
+}
+
+brand:hover{
+    color: red;
+    transform: 1.5;
+}
+
+more:hover{
+    color: red;
+    transform: 1.5;
+}
